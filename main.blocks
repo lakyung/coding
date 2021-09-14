@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="-u~~;nWVF=?1thE7ASFV" x="20" y="20"/><block type="device_forever" id=")Yfi(:ay.E:UGkN(c^OK" x="225" y="20"><statement name="HANDLER"><block type="device_show_number" id="JsF0Ibhv2aFTNlBrjSN/"><value name="number"><shadow type="math_number" id="wE3*ZKa}6rz?Td`^uOcQ"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="=YftOP53eita}]6O+n]C" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="sg0OdV*e.?,K7@*olk^!"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="FBr4ao^#(nTeX@#mKY|c" x="278" y="54"><field name="NAME">Button.A</field></block><block type="device_button_event" id="DC0@6}v4i88H1SHJP2nS" x="502" y="65"><field name="NAME">Button.B</field></block><block type="basic_show_icon" id="e(jlm(oOiAlrubXK}dwR" disabled="true" x="300" y="320"><field name="i">IconNames.Target</field></block><block type="controls_repeat_ext" id="spAU?KAZkrP]TfG+Od-9" disabled="true" x="758" y="316"><value name="TIMES"><shadow type="math_whole_number" id="?p!2bGliZ#Gijd6($.Y1" disabled="true"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_print_message" id="74eqaX`MPON~X3;)R~b-" disabled="true"><value name="text"><shadow type="text" id="yz}mTv1cKF0TL^NLRFhI" disabled="true"><field name="TEXT">Hello!</field></shadow></value></block></statement></block><block type="device_forever" id="saC(5b@MRTV)|#xZxDJ]" x="91" y="391"><statement name="HANDLER"><block type="device_show_leds" id="Fi,AGD.6opSr.HaiqeId"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="`ccGo1hj?cbR{8@MlW`P"><value name="pause"><shadow type="timePicker" id="oUmjtR!pd4`Nu?.v*w*G"><field name="ms">1000</field></shadow></value><next><block type="basic_show_icon" id="//5R@%Kt)v76MMnq$Y!o"><field name="i">IconNames.Heart</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="cPXF(o)X3logilDH./`E" x="552" y="380"/></xml>
