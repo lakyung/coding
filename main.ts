@@ -1,5 +1,5 @@
-input.onButtonPressed(Button.A, function () {
-	
+input.onGesture(Gesture.Shake, function () {
+    basic.showNumber(randint(1, 6))
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -10,8 +10,10 @@ input.onButtonPressed(Button.AB, function () {
         . . # . .
         `)
 })
-input.onButtonPressed(Button.B, function () {
-	
+basic.forever(function () {
+    if (37 < input.temperature()) {
+        music.playMelody("C5 C5 C5 - - - - - ", 407)
+    }
 })
 basic.forever(function () {
     basic.showLeds(`
